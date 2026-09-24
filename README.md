@@ -1,5 +1,7 @@
 # MST-Sensitivität – Toleranzen, Ausfall, Rauschen, dynamischer Baum – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-mst-sensitivity-demo.streamlit.app/)**
+
 Zehntes Stück der **Spannbaum-Reihe** der "Konzepte"-Reihe für die Website "Sebastian Hanisch – Operations Research und Machine Learning". Bisher galten die Kantenkosten als fest. In der Praxis ändern sich Trassenpreise, Leitungen fallen aus, neue Straßen kommen dazu. Die Demo misst drei Dinge am billigsten Baum (MST): **(1) Toleranz** – um wie viel darf eine Baumkante teurer, eine Nichtbaumkante billiger werden, bevor der Baum wechselt; **(2) Ausfall** – fällt eine Baumkante aus, springt die billigste **Ersatzkante** über den Schnitt ein, oder es gibt keine (**Brücke**, der Baum zerfällt); **(3) Update** – reicht es, den Baum anzupassen (Kante einfügen, löschen, Kosten ändern), statt Kruskal von vorn zu rechnen? Dazu die Frage aus der [kruskal-demo](../kruskal-demo), die dort nur ein Zähler war: **"±1 % Rauschen ändert den Baum in 30 % der Läufe"** – sagen die Einzeltoleranzen voraus, wann das passiert?
 
 Alle Kanten haben feste Nummern, verglichen wird (Kosten, Nummer); damit ist der Baum auch bei Gleichständen eindeutig und "der Baum ändert sich" genau prüfbar.
