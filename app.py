@@ -89,7 +89,7 @@ Außerdem: sagen die **Einzeltoleranzen** voraus, wann **Rauschen** auf allen Ka
 """
 )
 st.caption(
-    "Setzt auf [kruskal-demo](https://github.com/sebastian-hanisch/kruskal-demo) auf (Instanz, Kruskal, Union-Find, Instabilität ±1 %). Geplanter Nachfolger (nicht gebaut): zufällige Spannbäume und Kirchhoff. "
+    "Setzt auf [kruskal-demo](https://github.com/sebastian-hanisch/kruskal-demo) auf (Instanz, Kruskal, Union-Find, Instabilität ±1 %). Nachfolger: [random-spanning-tree-demo](https://github.com/sebastian-hanisch/random-spanning-tree-demo) (zufällige Spannbäume und Kirchhoff). "
     "Ausblick nur genannt: Tarjan 1982, Pettie 2005 (schnellere Toleranzen), Holm-de Lichtenberg-Thorup 2001 (dynamischer MST mit polylogarithmischer Zeit)."
 )
 
@@ -379,6 +379,6 @@ Implementiert in `sens_algorithm.py` (Toleranzen, Ausfall, `DynamicMST`), `sens_
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Spannbäume: vom Kruskal bis zum Zufallsbaum](https://sebastianhanisch.net/konzepte-spannbaum.html)."
 )

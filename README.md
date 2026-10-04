@@ -6,7 +6,7 @@ Zehntes Stück der **Spannbaum-Reihe** der "Konzepte"-Reihe für die Website "Se
 
 Alle Kanten haben feste Nummern, verglichen wird (Kosten, Nummer); damit ist der Baum auch bei Gleichständen eindeutig und "der Baum ändert sich" genau prüfbar.
 
-**Einordnung in die Reihe:** geplant sind elf Stücke, dies ist das zehnte:
+**Einordnung in die Reihe:** geplant waren elf Stücke, alle sind gebaut, dies ist das zehnte:
 
 ```
 Kruskal (Wurzel)                                                                           [gebaut: kruskal-demo]
@@ -19,7 +19,7 @@ Kruskal (Wurzel)                                                                
  ├─ Steiner-Baum                                                                           [gebaut: steiner-tree-demo]
  │    └─ Prize-Collecting Steiner-Baum                                                     [gebaut: pcst-demo]
  ├─ MST-Sensitivität & dynamischer MST                                                     [DIESES STÜCK]
- └─ Zufällige Spannbäume & Kirchhoff                                                       [nicht gebaut]
+ └─ Zufällige Spannbäume & Kirchhoff                                                       [gebaut: random-spanning-tree-demo]
 ```
 
 Ergebnis in Kürze: **Der Baum ist nicht durchgehend empfindlich, sondern wegen weniger Kanten: der Spielraum der Baumkanten liegt im Median bei 30 % ihrer Kosten, aber 3.1 % der Baumkanten haben unter 1 % und 12.5 % unter 5 % (Plan mit 30 Filialen, k = 6). Rauschen von ±1 % ändert den Baum in 28 % der Läufe, ±5 % in 74 %, ±10 % in 95 %. Die Einzeltoleranzen sagen das gut, aber nicht exakt voraus: bei ±1 % verpasst die Vorhersage "eine Kante überschreitet ihre Toleranz" 4.0 % der Läufe (14 % der Änderungen – zwei Änderungen zusammen reichen) und schlägt in 12.2 % falschen Alarm. Brücken gibt es nur in dünnen Netzen (k = 3: 68 % der Instanzen). Ein Update kostet im Mittel 2.7 % der Schritte von Kruskal von vorn und 11 % von Kruskal mit gehaltener Sortierung – aber das Löschen einer Baumkante im vollständigen Graphen ist teurer als die Neuberechnung mit gehaltener Sortierung.**
@@ -100,4 +100,4 @@ Tests: `pip install -r requirements-dev.txt` und `python -m pytest tests/ -W err
 - Holm, J., de Lichtenberg, K., & Thorup, M. (2001). *Poly-logarithmic deterministic fully-dynamic algorithms for connectivity, minimum spanning tree, 2-edge, and biconnectivity.* Journal of the ACM 48(4), 723–760 (nur genannt, nicht gebaut).
 - Kruskal (1956) und Union-Find (Tarjan 1975) wie in der kruskal-demo.
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning.
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Spannbäume: vom Kruskal bis zum Zufallsbaum](https://sebastianhanisch.net/konzepte-spannbaum.html).
