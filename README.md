@@ -6,7 +6,7 @@ Zehntes Stück der **Spannbaum-Reihe** der "Konzepte"-Reihe für die Website "Se
 
 Alle Kanten haben feste Nummern, verglichen wird (Kosten, Nummer); damit ist der Baum auch bei Gleichständen eindeutig und "der Baum ändert sich" genau prüfbar.
 
-**Einordnung in die Reihe:** geplant waren elf Stücke, alle sind gebaut, dies ist das zehnte:
+**Einordnung in die Reihe:** die Reihe hat elf Stücke, alle sind gebaut, dies ist das zehnte:
 
 ```
 Kruskal (Wurzel)                                                                           [gebaut: kruskal-demo]
