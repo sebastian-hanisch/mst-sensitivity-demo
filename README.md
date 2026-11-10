@@ -80,7 +80,7 @@ Presets (9): Standardfall, Lehrbuchbeispiel, dünnes Netz (Brücken), fragiler B
 
 - `tests/test_algorithm.py`: Toleranzen gegen die Neuberechnung des MST (knapp innerhalb/außerhalb, Gleichstand nach Nummer), Ersatzkante/Brücke gegen Brute-Force, schnell == naiv == Pfadsuche (320 Graphen), Dynamik gleich Neuberechnung nach jeder von 2400 Operationen (Einfügen, Löschen, Kosten ändern, auch Spannwald nach Brückenausfall), Buchführung des Lehrbuchbeispiels von Hand, Einzeltoleranz gegen gemeinsame Änderung (Fixture), Sonderfälle (n = 2, Pfad, gleiche Kosten, Kosten 0).
 - `tests/test_scenario.py` (Kopie treu zur kruskal-demo), `test_evaluation.py` (u. a. die Instabilität aus der kruskal-demo reproduziert: 0/60/30/0/30 %, Median 30), `test_presets.py` (Bänder + jede Zahl der Hilfetexte), `test_claims.py` (jede Zahl aus README und App über die echten `ev.*`-Funktionen), `test_app.py` (Streamlit-AppTest: Voreinstellung, jedes Preset, jeder Schritt und jede Position der Schritt-Regler, Randwerte, Würfel, Permalink-Grenzen, Instanzwechsel, Experimente und Sweeps auf Abruf, Footer).
-- Für die Prüfung genügt **pytest** (Brute-Force und eigenes Kruskal tragen sie).
+- Für die Prüfung genügt **pytest** (Brute-Force und eigenes Kruskal reichen dafür).
 
 ## Lokal starten
 
